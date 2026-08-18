@@ -57,12 +57,12 @@ export const calculateMCP = ({
       continue;
     }
 
-    if (!Number.isInteger(observation.citationPosition) || Number(observation.citationPosition) < 1) {
+    const position = observation.citationPosition;
+    if (typeof position !== 'number' || !Number.isInteger(position) || position < 1) {
       excludedCandidates.push(exclusion(observation, 'The evaluated target is cited, but no valid one-based citation position was recorded.'));
       continue;
     }
 
-    const position = Number(observation.citationPosition);
     validObservationIds.push(observation.id);
     validExecutionIds.push(observation.executionId);
     eligiblePositions.push(position);
