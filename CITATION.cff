@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use GSLHub research software, please cite this repository and the relevant methodology or study when available."
+title: "GSLHub Software: Reusable Research Software for Generative Search and GEO"
+type: software
+authors:
+  - family-names: "Yauri"
+    given-names: "Eduardo"
+    affiliation: "GSLHub — Generative Search Lab Hub"
+repository-code: "https://github.com/gslhub/software"
+url: "https://gslhub.com/software"
+version: "0.1.0"
+date-released: "2026-08-18"
+license: "AGPL-3.0-only"
+abstract: "Reusable research software developed by GSLHub for Generative Search, Generative Engine Optimization (GEO), AI evaluation and reproducible metric calculation."
+keywords:
+  - generative search
+  - generative engine optimization
+  - GEO
+  - AI evaluation
+  - research software
+  - reproducible research
+  - research metrics
