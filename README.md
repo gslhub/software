@@ -6,6 +6,8 @@
 
 **Framework-independent tools extracted from the GSLHub research infrastructure**
 
+**English** · [Español](./README.es.md)
+
 [Platform](https://github.com/gslhub/website) · [Research](https://github.com/gslhub/research) · [Benchmarks](https://github.com/gslhub/benchmarks) · [Docs](https://github.com/gslhub/docs)
 
 </div>
